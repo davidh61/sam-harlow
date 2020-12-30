@@ -6,5 +6,7 @@
 
 module.exports = {
   siteName: 'Samuel Harlow',
+  siteUrl: 'https://davidh61.github.io',
+  pathPrefix: '/sam-harlow',
   plugins: []
 }
