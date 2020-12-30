@@ -43,6 +43,7 @@ body {
   margin-bottom: 20px;
   height: 80px;
   font-size: 50px;
+  justify-content: center;
 
   a {
     color: white;
