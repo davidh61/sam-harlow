@@ -2,7 +2,7 @@
   <Layout>
     <div class="container">
       <video controls>
-        <source src="/Videos/plsss.mp4" type="video/mp4" />
+        <source src="@/assets/videos/plsss.mp4" type="video/mp4" />
       </video>
     </div>
   </Layout>

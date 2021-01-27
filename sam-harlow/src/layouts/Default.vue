@@ -2,7 +2,7 @@
   <div class="layout">
     <header class="header">
       <strong>
-        <g-image src="/Images/logo.png" />
+        <g-image src="@/assets/images/logo.png" />
         <!-- <g-link to="/">{{ $static.metadata.siteName }}</g-link> -->
       </strong>
       <nav class="nav"></nav>
@@ -49,7 +49,7 @@ body {
   padding-bottom: 5%;
 
   img {
-    height: 200px;
+    width: 200px;
   }
 }
 
