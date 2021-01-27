@@ -1,20 +1,19 @@
 <template>
   <Layout>
-
-
+    
   </Layout>
 </template>
 
 <script>
-export default {
-  metaInfo: {
-    title: 'Hello, world!'
-  }
-}
+export default {};
 </script>
 
-<style>
-.home-links a {
-  margin-right: 1rem;
+<style lang="scss">
+.categories {
+  .category {
+    img {
+      width: 33%;
+    }
+  }
 }
 </style>

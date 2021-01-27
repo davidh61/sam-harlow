@@ -2,7 +2,8 @@
   <div class="layout">
     <header class="header">
       <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+        <g-image src="/Images/logo.png" />
+        <!-- <g-link to="/">{{ $static.metadata.siteName }}</g-link> -->
       </strong>
       <nav class="nav"></nav>
     </header>
@@ -25,8 +26,8 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .layout {
@@ -45,9 +46,11 @@ body {
   font-size: 50px;
   justify-content: center;
 
-  a {
-    color: white;
+  img {
+    padding-top: 100%;
+    height: 200px;
   }
+
 }
 
 .nav__link {
