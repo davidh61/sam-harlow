@@ -44,13 +44,13 @@ body {
   margin-bottom: 20px;
   height: 80px;
   font-size: 50px;
-  justify-content: center;
+  justify-content: center;  
+  padding-top: 20%;
+  padding-bottom: 5%;
 
   img {
-    padding-top: 100%;
     height: 200px;
   }
-
 }
 
 .nav__link {
