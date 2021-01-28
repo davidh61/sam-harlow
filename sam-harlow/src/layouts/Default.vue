@@ -1,10 +1,13 @@
 <template>
   <div class="layout">
     <header class="header">
-      <strong>
-        <g-image src="@/assets/images/logo.png" />
-        <!-- <g-link to="/">{{ $static.metadata.siteName }}</g-link> -->
-      </strong>
+      <g-link to="/contact"><g-image src="@/assets/images/contact.png" width="75px" /></g-link>
+
+      <g-link to="/"><g-image src="@/assets/images/logo.png"  width="150px" /></g-link>
+
+      <g-link to="/contact"><g-image src="@/assets/images/coverart.png" width="75px"  /></g-link>
+
+      <!-- <g-link to="/">{{ $static.metadata.siteName }}</g-link> -->
       <nav class="nav"></nav>
     </header>
     <slot />
@@ -96,7 +99,7 @@ body {
   padding-bottom: 5%;
 
   img {
-    width: 200px;
+    // width: 150px;
   }
 }
 
