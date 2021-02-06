@@ -8,5 +8,12 @@ module.exports = {
   siteName: 'Samuel Harlow',
   siteUrl: 'https://davidh61.github.io',
   pathPrefix: '/sam-harlow',
-  plugins: []
+  plugins: [],
+  chainWebpack: config => {
+    const svgRule = config.module.rule('svg')
+    svgRule.uses.clear()
+    svgRule
+      .use('vue-svg-loader')
+      .loader('vue-svg-loader')
+  }
 }
