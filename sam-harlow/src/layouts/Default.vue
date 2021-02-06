@@ -2,15 +2,15 @@
   <div class="layout">
     <header class="header">
       <g-link to="/contact">
-        <ContactSvg :class="this.$route.path == '/contact' ? 'current' : ''" />
+        <ContactSvg :class="currentPageClass('/contact')"/>
       </g-link>
 
       <g-link to="/">
-        <LogoSvg :class="this.$route.path == '/' ? 'current' : ''" />
+        <LogoSvg :class="currentPageClass('/')"/>
       </g-link>
 
       <g-link to="/cover-art">
-        <CoverArtSvg :class="this.$route.path == '/cover-art' ? 'current' : ''"/>
+        <CoverArtSvg :class="currentPageClass('/cover-art')" />
       </g-link>
 
       <nav class="nav"></nav>
@@ -55,9 +55,16 @@ export default {
   },
   computed: {
     currentRouteName() {
-      return this.$route.name;
+      return this.$route.path;
     },
   },
+  methods: {
+    currentPageClass(path) {
+      if (this.currentRouteName == path) {
+        return 'current'
+      }
+    },
+  }
 };
 </script>
 
