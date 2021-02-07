@@ -12,7 +12,7 @@
           <input type="email" placeholder="Email" name="_reply_to" required />
         </div>
         <div>
-          <textarea name="message" placeholder="Message" required > </textarea>
+          <textarea name="message" placeholder="Message" required> </textarea>
         </div>
         <button type="submit">SEND</button>
       </form>
@@ -57,12 +57,15 @@ export default {
     }
 
     button {
+      cursor:pointer;
       font-size: 20px;
       color: white;
       background-color: #2a2a2a;
+      transition: all 0.25s ease;
 
-      &:hover {
-        cursor: pointer;
+
+      &:focus {
+        background-color: grey;
       }
     }
   }

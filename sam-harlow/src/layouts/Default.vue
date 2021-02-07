@@ -120,14 +120,13 @@ body {
   align-items: center;
   margin-bottom: 20px;
   height: 80px;
-  font-size: 50px;
   justify-content: center;
 
   a {
-    padding: 2%;
+    margin: 2%;
     svg {
       height: 31px;
-      color: #2a2a2a;
+      fill: #2a2a2a;
 
       &:hover {
         fill: grey;
