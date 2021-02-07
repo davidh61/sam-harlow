@@ -70,7 +70,7 @@ export default {
 
 <style lang="scss">
 body {
-  font-family: "Zilla Slab", -apple-system, system-ui, BlinkMacSystemFont,
+  font-family: "Dosis", -apple-system, system-ui, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   margin: 0;
   padding: 0;

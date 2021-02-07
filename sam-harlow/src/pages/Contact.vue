@@ -48,6 +48,8 @@ export default {
       margin: 8px 0;
       border: 2px solid #2a2a2a;
       border-radius: 4px;
+      font-size: 15px;
+      font-family: inherit;
     }
 
     textarea {
@@ -55,6 +57,7 @@ export default {
     }
 
     button {
+      font-size: 20px;
       color: white;
       background-color: #2a2a2a;
 
